@@ -67,6 +67,8 @@ if (debut === null ) {
 } else {
     if (statut === 0) {
         document.getElementById("statut").textContent = "☑️";
+        document.getElementById("val").textContent = "oui";
+        document.getElementById("eval").textContent = "oui";
         affiche.innerHTML = '<h4 style="text-align: right;"> <a href="" download="reçu_de_paiement" style="background-color: rgb(255, 0, 255);" ><b style="color: rgb(0, 0, 0);"> reçu <img src="../IMG/tele.svg"></b></a></h4>'
     } else {
 document.getElementById("statut").textContent = statut ;
