@@ -1,11 +1,39 @@
 //MOIS
 var mois = "aout"
-document.getElementById("mois").textContent = mois;
 
-const debut = null;
-const fin = null;
+//DATE
+const date = '29/08/2023';
+
+//electreicite
+const debut = 465;
+const fin = 512;
 const payer = null;
 const pu = 250;
+
+//EAU
+const edebut = 70;
+const efin = 82;
+const epayer = 2550;
+const epu = 400;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const index = fin - debut;
 const nat = pu * index;
 const reste = payer - nat;
@@ -23,12 +51,10 @@ document.getElementById("reste").textContent = reste;
 document.getElementById("nattotal").textContent = nattotal;
 document.getElementById("restetotal").textContent = restetotal;
 document.getElementById("payertotal").textContent = payertotal;
+document.getElementById("mois").textContent = mois;
 
 // EAU
-const edebut = null;
-const efin = null;
-const epayer = null;
-const epu = 400;
+
 const eindex = efin - edebut;
 const enat = epu * eindex;
 const ereste = epayer - enat;
@@ -49,7 +75,7 @@ document.getElementById("erestetotal").textContent = erestetotal;
 document.getElementById("epayertotal").textContent = epayertotal;
 
 // DATE
-const date = '../../20..';
+
 document.getElementById("date").textContent = date;
 document.getElementById("edate").textContent = date;
 
@@ -67,9 +93,14 @@ if (debut === null ) {
 } else {
     if (statut === 0) {
         document.getElementById("statut").textContent = "☑️";
-        document.getElementById("val").textContent = "oui";
-        document.getElementById("eval").textContent = "oui";
         affiche.innerHTML = '<h4 style="text-align: right;"> <a href="" download="reçu_de_paiement" style="background-color: rgb(255, 0, 255);" ><b style="color: rgb(0, 0, 0);"> reçu <img src="../IMG/tele.svg"></b></a></h4>'
-    } else {
+    } else { 
+        if (statut > 0) {
+            document.getElementById("statut").textContent = statut ;
+            document.getElementById("val").textContent = "oui";
+            document.getElementById("eval").textContent = "oui";
+            affiche.innerHTML = '<h4 style="text-align: right;"> <a href="" download="reçu_de_paiement" style="background-color: rgb(255, 0, 255);" ><b style="color: rgb(0, 0, 0);"> reçu <img src="../IMG/tele.svg"></b></a></h4>'
+        }
 document.getElementById("statut").textContent = statut ;
 }}
+
