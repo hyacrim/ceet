@@ -1,18 +1,18 @@
 //MOIS
-var mois = "mois"
+var mois = "septembre"
 
 //DATE
-const date = '../../20..';
+const date = '27/09/2023';
 
 //electreicite
-const debut = null;
-const fin = null;
+const debut = 512;
+const fin = 563;
 const payer = null;
 const pu = 250;
 
 //EAU
-const edebut = null;
-const efin = null;
+const edebut = 82;
+const efin = 88;
 const epayer = null;
 const epu = 400;
 

@@ -24,6 +24,16 @@ const epu = 400;
 
 
 
+
+
+
+
+
+
+
+
+
+
 const index = fin - debut;
 const nat = pu * index;
 const reste = payer - nat;

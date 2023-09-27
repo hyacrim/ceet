@@ -7,13 +7,13 @@ const date = '29/08/2023';
 //electreicite
 const debut = 465;
 const fin = 512;
-const payer = null;
+const payer = 11750;
 const pu = 250;
 
 //EAU
 const edebut = 70;
 const efin = 82;
-const epayer = 2550;
+const epayer = 2550 + 2550-300;
 const epu = 400;
 
 
