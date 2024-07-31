@@ -2,16 +2,16 @@
 var mois = "juillet"
 
 //DATE
-const date = '/07/2024';
+const date = '31/07/2024';
 //electreicite
 const debut = 1240;
-const fin = null;
+const fin = 1294;
 const payer = null;
 const pu = 250;
 
 //EAU
 const edebut = 182;
-const efin = null;
+const efin = 190;
 const epayer = null;
 const epu = 400;
 
