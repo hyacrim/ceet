@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Copier le Lien</title>
+    <title>Redirection vers Lien</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -18,7 +18,7 @@
             text-align: center;
         }
         .button {
-            background-color: #007bff;
+            background-color: #28a745;
             color: white;
             border: none;
             padding: 10px 20px;
@@ -31,7 +31,7 @@
             border-radius: 5px;
         }
         .button:hover {
-            background-color: #0056b3;
+            background-color: #218838;
         }
         .message {
             font-size: 16px;
@@ -41,21 +41,15 @@
 </head>
 <body>
     <div class="container">
-        <button class="button" id="copyButton">Copier le Lien</button>
+        <button class="button" id="redirectButton">Aller au Lien</button>
         <p class="message" id="message"></p>
     </div>
 
     <script>
-        document.getElementById('copyButton').addEventListener('click', function() {
-            const link = "https://getlee.co/r/2373957950";
-            const textArea = document.createElement('textarea');
-            textArea.value = link;
-            document.body.appendChild(textArea);
-            textArea.select();
-            document.execCommand('copy');
-            document.body.removeChild(textArea);
-
-            document.getElementById('message').textContent = 'Le lien a été copié dans le presse-papiers !';
+        document.getElementById('redirectButton').addEventListener('click', function() {
+            const url = "https://getlee.co/r/2373957950";
+            window.location.href = url;
+            document.getElementById('message').textContent = 'Vous allez être redirigé...';
         });
     </script>
 </body>
