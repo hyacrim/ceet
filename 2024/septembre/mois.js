@@ -11,7 +11,7 @@ const pu = 250;
 
 //EAU
 const edebut = 190;
-const efin = 20;
+const efin = 200;
 const epayer = null;
 const epu = 400;
 
