@@ -6,13 +6,13 @@ const date = '28/07/2024';
 //electreicite
 const debut = 1320;
 const fin = 1350;
-const payer = null;
+const payer = 7500;
 const pu = 250;
 
 //EAU
 const edebut = 190;
 const efin = 200;
-const epayer = null;
+const epayer = 4000;
 const epu = 400;
 
 
@@ -82,7 +82,7 @@ document.getElementById("edate").textContent = date;
 
 //RECU 
 //FINAL  <h4 style="text-align: right;"> <a href="" download="reçu_de_paiement" style="background-color: rgb(255, 0, 255);" ><b style="color: rgb(0, 0, 0);"> reçu <img src="../IMG/tele.svg"></b></a></h4>
-//no dispo      <h4 style="text-align: right;"> <a   style="background-color: rgb(255, 0, 0);" ><b style="color: rgb(0, 0, 0);"> reçu no disponible <img src="./IMG/tele.svg"></b></a></h4>
+//no dispo      <h4 style="text-align: right;"> <a   style="background-color: rgb(255, 0, 0);" ><b style="color: rgb(0, 0, 0);"> pas disponible <img src="./IMG/tele.svg"></b></a></h4>
 
 //STATUT ☑️
 var affiche = document.getElementById("affiche");

@@ -1,16 +1,16 @@
 //MOIS
-var mois = "joctobre"
+var mois = "octobre"
 
 //DATE
 const date = '/07/2024';
 //electreicite
-const debut = null;
+const debut = 1350;
 const fin = null;
 const payer = null;
 const pu = 225;
 
 //EAU
-const edebut = null;
+const edebut = 200;
 const efin = null;
 const epayer = null;
 const epu = 400;
@@ -82,7 +82,7 @@ document.getElementById("edate").textContent = date;
 
 //RECU 
 //FINAL  <h4 style="text-align: right;"> <a href="" download="reçu_de_paiement" style="background-color: rgb(255, 0, 255);" ><b style="color: rgb(0, 0, 0);"> reçu <img src="../IMG/tele.svg"></b></a></h4>
-//no dispo      <h4 style="text-align: right;"> <a   style="background-color: rgb(255, 0, 0);" ><b style="color: rgb(0, 0, 0);"> reçu no disponible <img src="./IMG/tele.svg"></b></a></h4>
+//no dispo      <h4 style="text-align: right;"> <a   style="background-color: rgb(255, 0, 0);" ><b style="color: rgb(0, 0, 0);"> pas disponible <img src="./IMG/tele.svg"></b></a></h4>
 
 //STATUT ☑️
 var affiche = document.getElementById("affiche");
