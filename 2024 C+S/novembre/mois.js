@@ -4,13 +4,13 @@ var mois = "novembre"
 //DATE
 const date = '/07/2024';
 //electreicite
-const debut = 51;
+const debut = null;
 const fin = null;
 const payer = null;
-const pu = 250;
+const pu = 200;
 
 //EAU
-const edebut = 14;
+const edebut = null;
 const efin = null;
 const epayer = null;
 const epu = 400;
