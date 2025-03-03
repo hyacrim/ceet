@@ -2,17 +2,17 @@
 var mois = "février"
 
 //DATE
-const date = '/02/2024';
+const date = '28/02/2024';
 
 //electreicite
-const debut = null;
-const fin = null;
+const debut = 49;
+const fin = 77;
 const payer =  null;
 const pu = 250;
 
 //EAU
-const edebut = null;
-const efin = null;
+const edebut = 220;
+const efin = 226;
 const epayer =  null;
 const epu = 400;
 
