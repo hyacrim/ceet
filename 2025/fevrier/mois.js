@@ -2,7 +2,7 @@
 var mois = "février"
 
 //DATE
-const date = '28/02/2024';
+const date = '28/02/2025';
 
 //electreicite
 const debut = 49;

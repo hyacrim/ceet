@@ -2,7 +2,7 @@
 var mois = "novembre"
 
 //DATE
-const date = '/07/2024';
+const date = '/07/2025';
 //electreicite
 const debut = null;
 const fin = null;
