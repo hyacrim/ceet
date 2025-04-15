@@ -7,7 +7,7 @@ const date = '31/03/2025';
 //electreicite
 const debut = 77;
 const fin = 107;
-const payer = null;
+const payer = 7500;
 const pu = 250;
 
 
