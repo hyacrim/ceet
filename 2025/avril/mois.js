@@ -2,19 +2,15 @@
 var mois = "avril"
 
 //DATE
-const date = '/04/2025';
+const date = '30/04/2025';
 
 //electreicite
-const debut = null;
-const fin =  null;
-const payer =  null;
+const debut = 107;
+const fin = 135;
+const payer = null;
 const pu = 250;
 
-//EAU
-const edebut = null;
-const efin = null;
-const epayer =  null;
-const epu = 400;
+
 
 
 
@@ -53,31 +49,11 @@ document.getElementById("restetotal").textContent = restetotal;
 document.getElementById("payertotal").textContent = payertotal;
 document.getElementById("mois").textContent = mois;
 
-// EAU
 
-const eindex = efin - edebut;
-const enat = epu * eindex;
-const ereste = epayer - enat;
-const enattotal = enat;
-const epayertotal = epayer;
-const erestetotal = epayertotal - enattotal;
-
-
-document.getElementById("edebut").textContent = edebut;
-document.getElementById("efin").textContent = efin;
-document.getElementById("eindex").textContent = eindex;
-document.getElementById("epu").textContent = epu;
-document.getElementById("enat").textContent = enat;
-document.getElementById("epayer").textContent = epayer;
-document.getElementById("ereste").textContent = ereste;
-document.getElementById("enattotal").textContent = enattotal;
-document.getElementById("erestetotal").textContent = erestetotal;
-document.getElementById("epayertotal").textContent = epayertotal;
 
 // DATE
 
 document.getElementById("date").textContent = date;
-document.getElementById("edate").textContent = date;
 
 
 
@@ -87,7 +63,7 @@ document.getElementById("edate").textContent = date;
 
 //STATUT ☑️
 var affiche = document.getElementById("affiche");
-var statut = restetotal + erestetotal;
+var statut = restetotal ;
 if (debut === null ) {
     document.getElementById("statut").textContent = "" ;
 } else {
